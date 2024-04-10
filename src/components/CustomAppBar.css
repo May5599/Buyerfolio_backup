@@ -1,0 +1,75 @@
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  .logo {
+    max-width: 100px; /* Adjust the maximum width of the logo */
+    height: auto; /* Let the height adjust automatically */
+    margin-right: 10px; /* Add margin to the right of the logo */
+  }
+
+  .search-input {
+    width: 30%; /* Set a percentage width for the search input */
+    max-width: 180px; /* Set a maximum width for the search input */
+    height: 20px; /* Set a fixed height for the search input */
+    margin-right: 10px; /* Add margin to the right of the search input */
+    height: 10%;
+    max-height: 80px;
+  }
+
+  .icon-btn {
+    padding: 6px; /* Reduced padding for icon buttons */
+    width: 10%; /* Set a percentage width for icon buttons */
+  }
+
+  .icon-btn .MuiIconButton-label {
+    font-size: 18px; /* Adjust font size for icon labels */
+  }
+}
+
+/* For tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    max-width: 150px; /* Adjust the maximum width of the logo */
+    height: auto; /* Let the height adjust automatically */
+    margin-right: 20px; /* Add margin to the right of the logo */
+  }
+
+  .search-input {
+    width: 40%; /* Set a percentage width for the search input */
+    max-width: 250px; /* Set a maximum width for the search input */
+    padding: 12px; /* Adjust padding for the search input */
+    font-size: 16px; /* Adjust font size for the search input */
+    margin-right: 20px; /* Add margin to the right of the search input */
+  }
+
+  .icon-btn {
+    padding: 10px; /* Adjust padding for icon buttons */
+  }
+
+  .icon-btn .MuiIconButton-label {
+    font-size: 24px; /* Adjust font size for icon labels */
+  }
+}
+/* For desktop */
+@media only screen and (min-width: 1025px) {
+  .logo {
+    max-width: 200px; /* Adjust the maximum width of the logo */
+    height: auto; /* Let the height adjust automatically */
+    margin-right: 30px; /* Add margin to the right of the logo */
+  }
+
+  .search-input {
+    width: 30%; /* Set a percentage width for the search input */
+    max-width: 350px; /* Set a maximum width for the search input */
+    padding: 14px; /* Adjust padding for the search input */
+    font-size: 18px; /* Adjust font size for the search input */
+    margin-right: 30px; /* Add margin to the right of the search input */
+  }
+
+  .icon-btn {
+    padding: 12px; /* Adjust padding for icon buttons */
+  }
+
+  .icon-btn .MuiIconButton-label {
+    font-size: 20px; /* Adjust font size for icon labels */
+  }
+}
